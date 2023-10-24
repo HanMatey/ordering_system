@@ -28,6 +28,8 @@ class ProductController {
     def updateProduct(){
         Long id = params.long("id")
         Product product = Product.get(id)
+
+
         def requestData = request.JSON
         product.productName = requestData.productName?: product.productName// use for the same price (jenh pricr ddea )
         product.description = requestData.description?: product.description

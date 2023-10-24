@@ -25,7 +25,7 @@ class OrderController {
                 list.add(orderDetail)// use for add for render all list in loop
             }
         }else {
-            render ("Order is not save.please check again!") as JSON
+            render ("dak ID ot berk crop p'nek merl te ey") as JSON
         }
         order.orderDetails = list // render relational
         render order as JSON
