@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ordering_system.iml" filepath="$PROJECT_DIR$/.idea/ordering_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordering_system.integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ordering_system.integrationTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordering_system.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ordering_system.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordering_system.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ordering_system.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordering_system_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ordering_system_integrationTest.iml" group="ordering_system" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordering_system_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ordering_system_main.iml" group="ordering_system" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordering_system_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ordering_system_test.iml" group="ordering_system" />

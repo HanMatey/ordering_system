@@ -27,7 +27,7 @@ class OrderController {
         }else {
             render ("dak ID ot berk crop p'nek merl te ey") as JSON
         }
-        order.orderDetails = list // render relational
+        order.orderDetails = list
         render order as JSON
     }
 

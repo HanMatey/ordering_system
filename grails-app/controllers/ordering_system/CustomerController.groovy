@@ -11,7 +11,6 @@ class CustomerController {
         customer.address=request.address
         customer.save(flush:true)
         render customer as JSON
-
     }
     def updateCustomer() {
         Long id=params.long("id")// call id for update
