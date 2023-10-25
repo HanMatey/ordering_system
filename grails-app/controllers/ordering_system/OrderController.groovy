@@ -27,7 +27,13 @@ class OrderController {
         }else {
             render ("Order is not save.please check again!") as JSON
         }
-        order.orderDetails = list // render relational
+
+
+
+
+
+        
+        order.orderDetails = list
         render order as JSON
     }
 
